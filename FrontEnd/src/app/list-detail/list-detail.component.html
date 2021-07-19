@@ -1,0 +1,20 @@
+<!-- <p>list-detail works!</p> -->
+<!-- <div>
+    <h4>MEAN application</h4>
+</div> -->
+
+<!-- <ul class="listings" *ngIf="d1$  as data1">
+    <li>
+        <h4>{{data1.title}}</h4>
+        <h5>Name:{{data1.Name}}</h5>
+        
+    </li>
+ </ul> -->
+
+ <ul class="info-wrap" *ngIf="d1 | async as data1">
+    
+    <h4>{{data1.title}}</h4>
+    <h5>Name:{{data1.Name}}</h5>
+        
+    
+ </ul>

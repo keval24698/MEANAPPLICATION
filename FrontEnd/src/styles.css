@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+  li{
+    list-style: none;
+    text-align: center;
+  }
+  a{
+    background: rgb(146, 228, 187);
+    color: honeydew;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width:auto
+  }
+  .info-wrap{
+    
+    background-color: rgb(80, 196, 186);
+    box-shadow: black;
+    box-sizing: 30px;
+    width: 80px;
+    margin:auto;
+  }

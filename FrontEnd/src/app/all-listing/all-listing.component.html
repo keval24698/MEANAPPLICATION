@@ -1,0 +1,13 @@
+<p>all-listing works!</p>
+
+<ul class="info-wrap" *ngIf="data$ | async as data1">
+   <!-- <li *ngFor="let things of data1"> -->
+            <li *ngFor="let things of data1" >
+         <h4>{{things.title}}</h4>
+         <h5>Name:{{things.Name}}</h5>
+          <a [routerLink]="things._id">View Details</a>
+          
+            </li>
+     
+   <!-- </li> -->
+</ul>
